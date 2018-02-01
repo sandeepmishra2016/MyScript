@@ -1,0 +1,88 @@
+
+----------------------------DATE--------------------------------------
+
+Thu Feb  1 17:16:59 CST 2018
+----------------------------Uptime------------------------------------
+
+ 17:16:59 up 165 days, 16:45,  0 users,  load average: 0.07, 0.04, 0.04
+------------------------Last logins-----------------------------------
+
+Last logins:
+
+wtmp begins Thu Feb  1 03:43:15 2018
+------------------------Disk and memory usage-------------------------
+
+Free/total disk: 3.4G / 7.8G
+Free/total memory: 2314 / 15569 MB
+----------------------Virtual Memory Statistics-----------------------
+
+procs -----------memory---------- ---swap-- -----io---- --system-- -----cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0 965584 276956 227932 1865456    1    1     5    14    0    0  5  1 94  0  0
+ 0  0 965584 276572 227940 1865456    0    0     0    30  881 1661  2  1 97  0  0
+ 0  0 965584 276572 227940 1865508    0    0     0     0  771 1281  4  0 96  0  0
+---------------------10 largest files from ‘/var/log/’----------------
+
+     19733 MB   /var/log/jbossas/standalone/console.log
+       606 MB   /var/log/jbossas/standalone/server.log.2018-01-28
+       586 MB   /var/log/jbossas/standalone/server.log.2018-01-31
+       547 MB   /var/log/jbossas/standalone/server.log.2018-01-30
+       461 MB   /var/log/jbossas/standalone/server.log.2018-01-29
+       437 MB   /var/log/jbossas/standalone/server.log
+       116 MB   /var/log/jbossas/standalone/console.log_20180125.gz
+        89 MB   /var/log/jbossas/standalone/console.log_20171215.gz
+        85 MB   /var/log/jbossas/standalone/console.log_20180112.gz
+        85 MB   /var/log/jbossas/standalone/console.log.gz
+-----------------------10 largest files from ‘/apps’----------------------
+        20 MB   /apps/outsystems/platform/LifeTime.osp
+        14 MB   /apps/outsystems/platform/repository/ooxml-schemas-1.1.521eef7e-3f1a-d854-35c8-9f5fd2ab4890.jar
+        14 MB   /apps/outsystems/platform/compilerservice.jar
+        11 MB   /apps/outsystems/platform/System_Components.osp
+        10 MB   /apps/outsystems/platform/ServiceCenter.oml
+         8 MB   /apps/outsystems/platform/repository/kettle-ui-swt-5.1.0.0-752.a66d82ba-c454-5a31-5f7c-f7f3e5d97762.jar
+         8 MB   /apps/outsystems/platform/repository/kettle-engine-5.1.0.0-752.937fdf0c-402d-8bdd-7931-7d3fc1d4eaaa.jar
+         8 MB   /apps/outsystems/platform/repository/CP_DIGS_Testing.5be14e8a-1101-9d76-cc48-85b017aa0f76.jar
+         5 MB   /apps/outsystems/platform/repository/poi-ooxml-schemas-3.12-20150511.b614541d-980d-faec-9e6b-d4bfc0c1bd55.jar
+         5 MB   /apps/outsystems/platform/repository/CP_Connectors.c3943d80-9400-2306-7f69-c31060fae01c.jar
+-----------------------10 largest files from ‘/var’-------------------
+
+     19733 MB   /var/log/jbossas/standalone/console.log
+       606 MB   /var/log/jbossas/standalone/server.log.2018-01-28
+       586 MB   /var/log/jbossas/standalone/server.log.2018-01-31
+       547 MB   /var/log/jbossas/standalone/server.log.2018-01-30
+       461 MB   /var/log/jbossas/standalone/server.log.2018-01-29
+       437 MB   /var/log/jbossas/standalone/server.log
+       116 MB   /var/log/jbossas/standalone/console.log_20180125.gz
+        89 MB   /var/log/jbossas/standalone/console.log_20171215.gz
+        85 MB   /var/log/jbossas/standalone/console.log_20180112.gz
+        85 MB   /var/log/jbossas/standalone/console.log.gz
+
+-----------------------Most expensive processes-----------------------
+
+12136MB java
+534MB   clamd
+46MB    puppet
+37MB    rmiregistry
+9MB     osad
+6MB     rsyslogd
+5MB     zabbix_agentd
+5MB     sshd
+2MB     bash
+2MB     standalone.sh
+--------------------------Top 3 output--------------------------------
+
+  PID USER      PR  NI  VIRT  RES  SHR S %CPU %MEM    TIME+  COMMAND
+    1 root      20   0 21408  772  544 S  0.0  0.0   0:10.16 init
+    2 root      20   0     0    0    0 S  0.0  0.0   0:00.01 kthreadd
+    3 root      RT   0     0    0    0 S  0.0  0.0   4:08.68 migration/0
+--------------------Current Outsystems  DB connections--------------------
+count:79
+------------------Running Services------------------------------------
+
+RMI Registry Service                               - RUNNING
+OutSystems Deployment Controller Service           - DISABLED
+OutSystems Deployment Service                      - RUNNING
+OutSystems Log Service                             - RUNNING
+OutSystems Scheduler Service                       - RUNNING
+jboss-outsystems (pid 12742) is running
+jboss-outsystems-mq (pid 12471) is running
